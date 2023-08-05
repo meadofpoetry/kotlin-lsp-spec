@@ -19,7 +19,6 @@ A language server that provides smart code completion, diagnostics, hover, docum
 unzip %{SOURCE0}
 
 %install
-#mkdir %{buildroot}
 mkdir -p -m0755 %{buildroot}/opt/kotlin-lsp/bin
 cp %{_builddir}/server/bin/kotlin-language-server %{buildroot}/opt/kotlin-lsp/bin/kotlin-language-server
 cp -r %{_builddir}/server/lib %{buildroot}/opt/kotlin-lsp
