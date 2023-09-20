@@ -2,7 +2,7 @@
 BuildArch:      noarch
 Summary:        Kotlin language server
 Name:           kotlin-language-server
-Version:        1.3.3
+Version:        1.3.5
 Release:        1%{?dist}
 
 License:        MIT
